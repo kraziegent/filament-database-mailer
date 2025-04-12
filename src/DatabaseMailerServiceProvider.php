@@ -9,12 +9,12 @@ use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
+use Kraziegent\DatabaseMailer\Commands\DatabaseMailerCommand;
+use Kraziegent\DatabaseMailer\Testing\TestsDatabaseMailer;
 use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Kraziegent\DatabaseMailer\Commands\DatabaseMailerCommand;
-use Kraziegent\DatabaseMailer\Testing\TestsDatabaseMailer;
 
 class DatabaseMailerServiceProvider extends PackageServiceProvider
 {
