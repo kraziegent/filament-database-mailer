@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Kraziegent\DatabaseMailer\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class DatabaseMailerCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-database-mailer';
 
     public $description = 'My command';
 
